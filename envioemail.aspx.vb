@@ -4,7 +4,7 @@ Public Class envioemail
     Protected Sub Button_enviar_Click(sender As Object, e As EventArgs)
         Try
             Dim usuario As String = "hugoxoft@hotmail.com"
-            Dim contrasena As String = "xsmtpsib-b8ab6b65cefd87880f9298cf5d9f8e4653779329418bfe0425c8044f1911978e-yOFxfR1stjH9KNIw"
+            Dim contrasena As String = "xsmtpsib-b8ab6b65cefd87880f9298cf5d9f8e4653779329Iw"
 
             Dim correo As New System.Net.Mail.MailMessage
             correo.To.Add(Me.TextBox_destino.Text)
