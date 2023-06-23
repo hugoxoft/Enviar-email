@@ -3,7 +3,7 @@ Public Class envioemail
     Inherits System.Web.UI.Page
     Protected Sub Button_enviar_Click(sender As Object, e As EventArgs)
         Try
-            Dim usuario As String = "hugoxoft@hotmail.com"
+            Dim usuario As String = "admon@vbpuntonet.com"
             Dim contrasena As String = "xsmtpsib-b8ab6b65cefd87880f9298cf5d9f8e4653779329Iw"
 
             Dim correo As New System.Net.Mail.MailMessage
